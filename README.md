@@ -56,14 +56,14 @@ El proyecto se encuentra dentro del directorio `webapps` de Tomcat por convenien
 El proyecto se compila y despliega manualmente mediante scripts Bash.
 
 ### Compilar
-- ```bash
+```bash
 ./build.sh
 Desplegar en Tomcat
 bash
 Copiar código
 ./deploy.sh
 Una vez desplegado, Tomcat ejecuta la aplicación desde el directorio webapps.
-
+```
 ## Requisitos
 Java JDK 11 o superior.
 
