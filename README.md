@@ -77,7 +77,7 @@ Navegador web moderno.
 
 ## Autores
 
-Jean Guillèn
+- Jean Guillèn
 Líder del proyecto
 
-Jerameel Morris
+- Jerameel Morris
