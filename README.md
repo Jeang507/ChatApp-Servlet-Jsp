@@ -4,8 +4,6 @@ Este proyecto consiste en una **aplicación web de chat multiusuario** desarroll
 
 La aplicación implementa una **arquitectura cliente–servidor**, permitiendo que múltiples usuarios accedan simultáneamente desde distintos dispositivos dentro de la misma red local utilizando la dirección IP del servidor.
 
----
-
 ## Objetivos del Proyecto
 
 - Implementar una arquitectura cliente–servidor funcional.
@@ -13,8 +11,6 @@ La aplicación implementa una **arquitectura cliente–servidor**, permitiendo q
 - Permitir comunicación multiusuario a través de un chat web.
 - Integrar una base de datos relacional usando JDBC.
 - Aplicar buenas prácticas de organización y despliegue en Java Web.
-
----
 
 ## Arquitectura del Sistema
 
@@ -27,8 +23,6 @@ La aplicación sigue una arquitectura **cliente–servidor centralizada**:
 
 El cliente envía solicitudes HTTP al servidor, el cual procesa la lógica, gestiona sesiones y responde con vistas JSP.
 
----
-
 ## Servicio en Red
 
 El servidor Apache Tomcat se ejecuta escuchando en el **puerto 8080** y en todas las interfaces de red (`0.0.0.0`), lo que permite que la aplicación sea accesible desde cualquier dispositivo dentro de la misma red local utilizando la IP del servidor.
@@ -40,8 +34,6 @@ http://IP_DEL_SERVIDOR:8080/test
 yaml
 Copiar código
 
----
-
 ## Funcionalidades
 
 - Registro de usuarios.
@@ -49,8 +41,6 @@ Copiar código
 - Recuperación y restablecimiento de contraseña.
 - Chat multiusuario accesible en red local.
 - Interfaz web desarrollada con JSP y CSS.
-
----
 
 ## Organización del Proyecto
 
@@ -60,8 +50,6 @@ El proyecto se encuentra dentro del directorio `webapps` de Tomcat por convenien
 - `css/` y archivos `.jsp` contienen la capa de presentación.
 - `build.sh` compila el proyecto.
 - `deploy.sh` despliega la aplicación en Tomcat.
-
----
 
 ## Compilación y Despliegue
 
