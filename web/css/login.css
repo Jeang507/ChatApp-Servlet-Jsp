@@ -1,0 +1,143 @@
+/* Estilos generales de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f7fb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal de dos paneles */
+.container {
+    width: 900px;
+    height: 520px;
+    display: flex;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+    background: white;
+}
+
+/* PANEL IZQUIERDO - LOGIN */
+.left {
+    width: 55%;
+    padding: 50px;
+    background: #fff;
+}
+
+.left h2 {
+    margin-bottom: 35px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #222;
+}
+
+/* Grupos de inputs */
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #c8d1dd;
+    font-size: 15px;
+    outline: none;
+    transition: .2s;
+}
+
+.input-group input:focus {
+    border-color: #1f4c78;
+    box-shadow: 0 0 6px rgba(31,76,120,0.28);
+}
+
+/* Enlaces adicionales */
+.actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.actions a {
+    color: #1f4c78;
+    text-decoration: none;
+}
+
+/* Botón de login */
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background: #1f4c78;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+    transition: .2s;
+}
+
+.btn-login:hover {
+    background: #235a90;
+}
+
+/* PANEL DERECHO - INFO / REGISTRO */
+.right {
+    width: 45%;
+    background: linear-gradient(145deg, #08307b, #0e4cb3, #297af1);
+    color: white;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.right h1 {
+    font-size: 34px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.right p {
+    font-size: 15px;
+    margin-bottom: 32px;
+    opacity: 0.85;
+}
+
+/* Botón de crear cuenta */
+.right a {
+    display: inline-block;
+    padding: 12px 22px;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.right a:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.error-box {
+    background: #ffe1e1;
+    border: 1px solid #ff9b9b;
+    color: #b80000;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+

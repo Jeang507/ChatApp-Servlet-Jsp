@@ -1,0 +1,23 @@
+```gitignore
+# Archivos compilados
+*.class
+build/
+
+# Directorio de despliegue
+deploy/
+
+# Librerías externas
+*.jar
+
+# Archivos generados por Tomcat
+WEB-INF/classes/
+WEB-INF/lib/
+logs/
+temp/
+work/
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

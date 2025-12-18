@@ -1,0 +1,60 @@
+/* Estilos generales de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f7fb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal del formulario */
+.container {
+    width: 430px;
+    background: white;
+    padding: 35px;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Título principal */
+h2 {
+    color: #08307b;
+    margin-bottom: 24px;
+    font-size: 26px;
+}
+
+/* Campos de entrada de texto */
+input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 1px solid #ccd2dc;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Botón de envío del formulario */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #08307b;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Enlace para volver al login */
+a {
+    display: block;
+    margin-top: 16px;
+    color: #08307b;
+    text-decoration: none;
+}
